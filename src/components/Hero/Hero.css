@@ -1,0 +1,26 @@
+.Hero{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.Hero h1{
+    padding: 3rem;
+    font-size: 4rem;
+    text-align: center;
+}
+.Hero .intro{
+    margin-top: 1rem;
+    padding: 2rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Hero strong{
+    color: rgb(219, 152, 7);
+}
+.Hero .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

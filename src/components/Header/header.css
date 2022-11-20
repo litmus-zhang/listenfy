@@ -1,0 +1,18 @@
+.bdr{
+    border: 2px solid red;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    background: black;
+    color: white;
+    padding: 1rem;
+    align-items: center;
+}
+.header h1{
+    font-size: 2rem;
+}
+.header nav{
+    margin-left: 16rem;
+}
