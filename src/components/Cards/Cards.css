@@ -4,11 +4,11 @@
 }
 .cards{
     margin-top: 3rem;
-    padding: 2rem;
+    padding: 1rem;
     background: hsl(0,0%,70%);
 }
 .cards h2{
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: 700;
     margin-left: 2rem;
 }
@@ -16,13 +16,66 @@
 .cards .container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin-top: 1rem;
 }
 
+.card{
+    padding: 1rem;
+}
+.subcard{
+    border-radius: 8px;
+    padding: 1rem;
+    border: 2px solid black;
+}
+.subcard:hover{
+    cursor: pointer;
+    padding: 0.8rem;
+}
+.subcard h3, .subcard p{
+    margin-top: 0.5rem;
+}
+.subcard h3{
+    font-weight: 700;
+    font-size: 1rem;
+}
+.card img{
+    border-radius: 15px;
+}
+.details{
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* play component */
+.Play{
+    padding: 1rem;
+    border-radius: 50%;
+    color: rgb(219, 152, 7);
+    background: black;
+}
+.Play:hover{
+    background: rgb(219, 152, 7);
+    color: black;
+}
 @media screen and (min-width: 728px) { 
     .cards .container{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 2rem;
+    }
+    .cards{
+        padding: 2rem;
+    }
+    .subcard{
+        padding: 1.5rem;
+        border: 0px ;
+    }
+    .subcard:hover{
+        background: hsl(0,0%,65%);
+        border: 2px solid black;
+        padding: 1.2rem;
     }
 }
