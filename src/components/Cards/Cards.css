@@ -49,17 +49,6 @@
     justify-content: space-around;
 }
 
-/* play component */
-.Play{
-    padding: 1rem;
-    border-radius: 50%;
-    color: rgb(219, 152, 7);
-    background: black;
-}
-.Play:hover{
-    background: rgb(219, 152, 7);
-    color: black;
-}
 @media screen and (min-width: 728px) { 
     .cards .container{
         display: grid;
